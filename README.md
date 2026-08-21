@@ -6,6 +6,10 @@
 
 Сайт публикуется через GitHub Pages. Главная страница проекта — `index.html`.
 
+- Текущая версия: https://dosvidannie.github.io/gconf-ai-progress/
+- Предыдущая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/initial/
+- Сравнение рядом: https://dosvidannie.github.io/gconf-ai-progress/compare/
+
 ## Структура проекта
 
 ```text
@@ -14,6 +18,9 @@ gconf-ai-progress/
 ├── README.md               # Описание проекта и инструкция
 ├── .gitignore              # Файлы, которые не нужно публиковать
 ├── .nojekyll               # Публиковать статические файлы без обработки Jekyll
+├── compare/                # Страница сравнения версий рядом
+├── versions/
+│   └── initial/            # Независимый архив предыдущей версии
 └── assets/
     ├── css/
     │   └── styles.css      # Внешний вид сайта

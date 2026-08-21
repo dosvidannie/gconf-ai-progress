@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Интерактивная хроника трёх недель работы Анны с AI: от контекста и внешних действий до продуктов, рабочих систем и собственного скилла.">
+  <title>Три недели с AI — предыдущая версия</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="topbar">
+    <a class="brand" href="#top"><b>AI /</b> Анна Галкина</a>
+    <nav class="nav" aria-label="Навигация по отчёту">
+      <a href="#growth">Рост</a>
+      <a href="#results">Результаты</a>
+      <a href="#timeline">Хронология</a>
+      <a href="#reports">Отчёты</a>
+    </nav>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="shell hero-top">
+      <div class="period">31 июля — 21 августа 2026</div>
+      <p class="hero-note">Личная ретроспектива по материалам GCONF, #sekta, «Личного развития», «Здоровья» и отдельных рабочих чатов.</p>
+    </div>
+
+    <div class="shell hero-main">
+      <div class="hero-orbit" aria-hidden="true"></div>
+      <h1>
+        <span>Три недели</span>
+        <span class="indent">с AI.</span>
+        <span class="last">Не чат — система.</span>
+      </h1>
+    </div>
+
+    <div class="shell">
+      <div class="hero-bottom">
+        <p class="hero-copy">За этот период AI прошёл путь от помощника для текстов до <strong>рабочего агента, соавтора продуктов и носителя повторяемых процессов</strong>.</p>
+        <div class="metrics" aria-label="Ключевые результаты">
+          <div class="metric"><strong>6</strong><span>крупных работающих артефактов</span></div>
+          <div class="metric"><strong>15</strong><span>новых способов работы</span></div>
+          <div class="metric"><strong>1</strong><span>собственный AI-скилл</span></div>
+          <div class="metric"><strong>4</strong><span>визуальных отчёта</span></div>
+        </div>
+      </div>
+      <div class="source-ticker" aria-hidden="true">
+        <span>GCONF</span><span>#SEKTA</span><span>ЛИЧНОЕ РАЗВИТИЕ</span><span>ЗДОРОВЬЕ</span><span>РАБОТА ПРОДЮСЕРА</span><span>ВИЗУАЛЬНЫЕ ЭКСПЕРИМЕНТЫ</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="growth">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">01 / Главный сдвиг</p>
+          <div>
+            <h2 class="section-title">От запроса <span class="accent">к системе</span></h2>
+            <p class="section-intro">Рост оказался не в количестве промптов. Изменилась сама роль: теперь задача — задать результат, дать контекст, установить правила и проверить выход.</p>
+          </div>
+        </div>
+
+        <div class="growth-rail">
+          <article class="stage"><span class="stage-num">01</span><h3 class="stage-title">Ответы и тексты</h3><p>Редактура, объяснения, идеи и быстрые формулировки.</p></article>
+          <article class="stage"><span class="stage-num">02</span><h3 class="stage-title">Контекст</h3><p>Папки проектов, инструкции, файлы и длинная память процесса.</p></article>
+          <article class="stage"><span class="stage-num">03</span><h3 class="stage-title">Действия</h3><p>Работа с Gmail, Google Drive, PDF и внешними сервисами.</p></article>
+          <article class="stage"><span class="stage-num">04</span><h3 class="stage-title">Продукты</h3><p>Игра, дашборд, сайт и визуальные прототипы.</p></article>
+          <article class="stage"><span class="stage-num">05</span><h3 class="stage-title">Рабочая система</h3><p>Планировщик съёмок с правилами, проверками и вариантами.</p></article>
+          <article class="stage"><span class="stage-num">06</span><h3 class="stage-title">Переиспользование</h3><p>Проверенный процесс упакован в собственный AI-скилл.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="results">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">02 / Что создано</p>
+          <div>
+            <h2 class="section-title">Результаты, которые <span class="accent">можно потрогать</span></h2>
+            <p class="section-intro">Не учебные упражнения, а вещи с реальным назначением: для здоровья, работы, обучения, визуального контента и собственного бизнеса.</p>
+          </div>
+        </div>
+        <div class="toolbar" id="resultFilters" aria-label="Фильтры результатов"></div>
+        <div class="results-grid" id="resultsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="methods">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">03 / Новые практики</p>
+          <div>
+            <h2 class="section-title">Пятнадцать способов <span class="accent">работать иначе</span></h2>
+            <p class="section-intro">Это и есть главная коллекция периода: не список инструментов, а повторяемые модели взаимодействия с AI.</p>
+          </div>
+        </div>
+        <div class="methods-grid" id="methodsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="reports">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">04 / Артефакты памяти</p>
+          <div>
+            <h2 class="section-title">Прогресс, превращённый <span class="accent">в визуал</span></h2>
+            <p class="section-intro">Четыре отчёта фиксируют переход от настройки контекста к самостоятельному проектированию AI-помощника.</p>
+          </div>
+        </div>
+        <div class="report-grid">
+          <button class="report-card" aria-label="Открыть отчёт за 7 августа">
+            <img src="../../assets/images/report-2026-08-07.png" alt="Отчёт: мой второй день с ИИ" loading="lazy">
+            <span class="report-label"><strong>День 2</strong><span>Контекст → рабочий агент</span></span>
+          </button>
+          <button class="report-card" aria-label="Открыть отчёт за 9 августа">
+            <img src="../../assets/images/report-2026-08-09.png" alt="Отчёт: мой третий день с ИИ" loading="lazy">
+            <span class="report-label"><strong>День 3</strong><span>PDF → дашборд и действия</span></span>
+          </button>
+          <button class="report-card" aria-label="Открыть отчёт за 10 августа">
+            <img src="../../assets/images/report-2026-08-10.png" alt="Отчёт: мой четвёртый день с ИИ" loading="lazy">
+            <span class="report-label"><strong>День 4</strong><span>Идея → готовая игра</span></span>
+          </button>
+          <button class="report-card" aria-label="Открыть отчёт за 12 августа">
+            <img src="../../assets/images/report-2026-08-12.png" alt="Отчёт: пятый и шестой дни с ИИ" loading="lazy">
+            <span class="report-label"><strong>Дни 5–6</strong><span>План → рабочий помощник</span></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">05 / Полная хроника</p>
+          <div>
+            <h2 class="section-title">День за днём, <span class="accent">без глянца</span></h2>
+            <p class="section-intro">Здесь есть и быстрые победы, и тупики, и переделки. Именно вместе они показывают реальный способ обучения.</p>
+          </div>
+        </div>
+
+        <div class="toolbar" id="timelineFilters" aria-label="Фильтры хронологии"></div>
+        <div class="timeline-layout">
+          <aside class="timeline-guide">
+            <p>Фильтр не прячет «неидеальные» эпизоды: сбои, ограничения генерации и ручная проверка — часть освоенного процесса.</p>
+            <div class="timeline-count" id="timelineCount">00</div>
+          </aside>
+          <div class="timeline" id="timelineList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="compare">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">06 / Тогда и сейчас</p>
+          <div>
+            <h2 class="section-title">Изменилась не скорость. <span class="accent">Изменилась роль.</span></h2>
+          </div>
+        </div>
+
+        <div class="compare">
+          <div class="compare-controls" role="tablist" aria-label="Сравнение начала и конца периода">
+            <button class="compare-btn active" data-compare="before" role="tab" aria-selected="true">В начале</button>
+            <button class="compare-btn" data-compare="after" role="tab" aria-selected="false">Сейчас</button>
+          </div>
+          <div class="compare-panel" id="comparePanel"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="next">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">07 / Что проверить дальше</p>
+          <div>
+            <h2 class="section-title">Не больше проектов. <span class="accent">Больше доказательств.</span></h2>
+            <p class="section-intro">Следующий уровень — не производить новый артефакт каждый день, а проверить, какие из созданных систем действительно остаются в работе.</p>
+          </div>
+        </div>
+        <div class="next-grid">
+          <article class="next-item"><span>01</span><div><h3>Три реальные съёмки</h3><p>Прогнать скилл на разных проектах и зафиксировать, где правила ещё расходятся с реальностью.</p></div></article>
+          <article class="next-item"><span>02</span><div><h3>Пилот с одним тренером</h3><p>Проверить минимальное ТЗ и согласие для снэпбордов до масштабирования на команду.</p></div></article>
+          <article class="next-item"><span>03</span><div><h3>Режим для врача</h3><p>Отделить приватный личный дашборд от короткой безопасной сводки для медицинского приёма.</p></div></article>
+          <article class="next-item"><span>04</span><div><h3>Вернуть знания в файлы</h3><p>Восстановить словарь и сборник идей в устойчивом хранилище, чтобы результаты не жили только в чатах.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sources">
+      <div class="shell">
+        <div class="methodology">
+          <article class="note-card">
+            <h3>Что вошло</h3>
+            <p>AI-релевантные чаты и файлы из GCONF, #sekta, «Личного развития», «Здоровья», отдельные чаты «Инструменты для продюсера» и локальные результаты проектов за последние три недели.</p>
+            <p>Бытовые чаты, не связанные с новыми способами работы или заметными результатами, не включены.</p>
+          </article>
+          <article class="note-card">
+            <h3>Что намеренно скрыто</h3>
+            <p>Медицинские значения, имена участников съёмок, приватные Google-таблицы, почта, исходные фотографии, локальные пути и полные тексты личных разговоров.</p>
+            <p>Отсутствующие сейчас Markdown-файлы обозначены как результаты, зафиксированные в истории, без неработающих ссылок.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-row">
+      <h2>AI стал не отдельным чатом, а частью моей рабочей системы.</h2>
+      <p>Собрано 21 августа 2026 года. Автономный локальный файл: никакие данные не отправляются наружу.</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр отчёта" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Закрыть">×</button>
+    <img id="lightboxImage" src="" alt="Увеличенный визуальный отчёт">
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
