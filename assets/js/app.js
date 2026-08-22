@@ -127,7 +127,7 @@ const categoryLabels = {
 
     const compareData = {
       before: {
-        label: "Старт", number: "01", title: "AI как отдельный помощник",
+        label: "Старт", title: "AI как отдельный помощник",
         items: [
           ["Запрос", "Нужно подробно объяснять задачу в каждом новом чате"],
           ["Результат", "Ответ, текст или разовая красивая картинка"],
@@ -136,7 +136,7 @@ const categoryLabels = {
         ]
       },
       after: {
-        label: "Сейчас", number: "06", title: "AI как рабочая инфраструктура",
+        label: "Сейчас", title: "AI как рабочая инфраструктура",
         items: [
           ["Запрос", "Контекст, входы, правила, ошибки и критерии готовности"],
           ["Результат", "Продукт, система, внешний action или переиспользуемый скилл"],
@@ -226,7 +226,7 @@ const categoryLabels = {
     function renderCompare(key) {
       const data = compareData[key];
       document.getElementById("comparePanel").innerHTML = `
-        <div class="compare-side"><p>${data.label}</p><strong>${data.number}</strong></div>
+        <div class="compare-side"><p>${data.label}</p></div>
         <div class="compare-content">
           <h3>${data.title}</h3>
           <div class="compare-list">

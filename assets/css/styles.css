@@ -364,8 +364,7 @@
     .compare-btn { padding: 10px 15px; border: 1px solid rgba(10,10,9,.25); border-radius: 999px; background: transparent; cursor: pointer; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
     .compare-btn.active { background: var(--ink); color: var(--paper); }
     .compare-panel { display: grid; grid-template-columns: .8fr 2fr; min-height: 420px; }
-    .compare-side { padding: 28px; border-right: 1px solid rgba(10,10,9,.15); display: flex; flex-direction: column; justify-content: space-between; }
-    .compare-side strong { font-size: clamp(74px, 10vw, 160px); line-height: .75; font-weight: 400; letter-spacing: -.09em; color: var(--orange-deep); }
+    .compare-side { padding: 28px; border-right: 1px solid rgba(10,10,9,.15); display: flex; flex-direction: column; justify-content: flex-start; }
     .compare-side p { margin: 0; font-size: 13px; line-height: 1.4; text-transform: uppercase; letter-spacing: .08em; }
     .compare-content { padding: 34px; }
     .compare-content h3 { margin: 0 0 28px; font-size: clamp(36px, 5vw, 78px); line-height: .88; letter-spacing: -.06em; font-weight: 400; }
