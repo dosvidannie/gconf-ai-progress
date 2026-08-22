@@ -8,9 +8,10 @@
 
 - Текущая версия: https://dosvidannie.github.io/gconf-ai-progress/
 - Архив всех версий: https://dosvidannie.github.io/gconf-ai-progress/versions/
-- Предыдущая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/2026-08-21-v2/
-- Первая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/initial/
-- Сравнение рядом: https://dosvidannie.github.io/gconf-ai-progress/compare/
+- Третья версия: https://dosvidannie.github.io/gconf-ai-progress/versions/third/
+- Вторая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/second/
+- Первая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/first/
+- Сравнение третьей и актуальной: https://dosvidannie.github.io/gconf-ai-progress/compare/
 
 ## Структура проекта
 
@@ -23,8 +24,9 @@ gconf-ai-progress/
 ├── compare/                # Страница сравнения версий рядом
 ├── versions/
 │   ├── index.html          # Список всех сохранённых версий
-│   ├── 2026-08-21-v2/     # Версия перед обновлением от 22 августа
-│   └── initial/            # Архив первой публикации
+│   ├── first/              # Первая версия
+│   ├── second/             # Вторая версия
+│   └── third/              # Третья версия
 └── assets/
     ├── css/
     │   └── styles.css      # Внешний вид сайта
