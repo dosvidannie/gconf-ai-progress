@@ -1,6 +1,6 @@
 # Три недели с AI
 
-Интерактивная ретроспектива Анны Галкиной за 6–21 августа 2026 года: новые способы работы с AI, созданные продукты, рабочие системы, выступления и полная хронология обучения.
+Интерактивная ретроспектива Анны Галкиной за 6–25 августа 2026 года: новые способы работы с AI, созданные продукты, рабочие системы, выступления и полная хронология обучения.
 
 ## Публичная версия
 
@@ -8,10 +8,11 @@
 
 - Текущая версия: https://dosvidannie.github.io/gconf-ai-progress/
 - Архив всех версий: https://dosvidannie.github.io/gconf-ai-progress/versions/
+- Четвёртая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/fourth/
 - Третья версия: https://dosvidannie.github.io/gconf-ai-progress/versions/third/
 - Вторая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/second/
 - Первая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/first/
-- Сравнение третьей и актуальной: https://dosvidannie.github.io/gconf-ai-progress/compare/
+- Сравнение четвёртой и актуальной: https://dosvidannie.github.io/gconf-ai-progress/compare/
 
 ## Структура проекта
 
@@ -26,7 +27,8 @@ gconf-ai-progress/
 │   ├── index.html          # Список всех сохранённых версий
 │   ├── first/              # Первая версия
 │   ├── second/             # Вторая версия
-│   └── third/              # Третья версия
+│   ├── third/              # Третья версия
+│   └── fourth/             # Четвёртая версия
 └── assets/
     ├── css/
     │   └── styles.css      # Внешний вид сайта
