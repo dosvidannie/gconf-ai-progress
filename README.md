@@ -1,6 +1,6 @@
 # Три недели с AI
 
-Интерактивная ретроспектива Анны Галкиной за 6–29 августа 2026 года: новые способы работы с AI, созданные продукты, рабочие системы, выступления и полная хронология обучения.
+Интерактивная ретроспектива Анны Галкиной за 6–31 августа 2026 года: новые способы работы с AI, созданные продукты, рабочие системы, выступления и полная хронология обучения.
 
 ## Публичная версия
 
@@ -8,6 +8,7 @@
 
 - Текущая версия: https://dosvidannie.github.io/gconf-ai-progress/
 - Архив всех версий: https://dosvidannie.github.io/gconf-ai-progress/versions/
+- Девятая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/ninth/
 - Восьмая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/eighth/
 - Седьмая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/seventh/
 - Шестая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/sixth/
@@ -16,7 +17,7 @@
 - Третья версия: https://dosvidannie.github.io/gconf-ai-progress/versions/third/
 - Вторая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/second/
 - Первая версия: https://dosvidannie.github.io/gconf-ai-progress/versions/first/
-- Сравнение восьмой и актуальной: https://dosvidannie.github.io/gconf-ai-progress/compare/
+- Сравнение девятой и актуальной: https://dosvidannie.github.io/gconf-ai-progress/compare/
 
 ## Структура проекта
 
@@ -36,7 +37,8 @@ gconf-ai-progress/
 │   ├── fifth/              # Пятая версия
 │   ├── sixth/              # Шестая версия
 │   ├── seventh/            # Седьмая версия
-│   └── eighth/             # Восьмая версия
+│   ├── eighth/             # Восьмая версия
+│   └── ninth/              # Девятая версия
 └── assets/
     ├── css/
     │   └── styles.css      # Внешний вид сайта
